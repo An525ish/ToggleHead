@@ -6,6 +6,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
 }
 
 .logo {
@@ -19,7 +23,7 @@ nav ul {
 }
 
 nav ul li {
-  margin-right: 20px;
+  margin-right: 24px;
 }
 
 nav ul li a {
@@ -57,6 +61,7 @@ nav ul li a {
   background-color: #f3f4f6;
   display: flex;
   align-items: center;
+  padding-top: 35px;
 }
 
 .hero-content {
@@ -284,7 +289,7 @@ nav ul li a {
 .subscribe {
   display: flex;
   align-items: center;
-  padding: 50px 80px 0px;
+  padding: 0px 80px 0px;
 }
 
 .subscribe-content {
@@ -398,13 +403,21 @@ footer {
   } */
 
   header,
-  .hero,
+  .hero-content,
   .upcoming-exams,
   .statistics,
   .faq,
   .subscribe,
   footer {
     padding: 20px;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+  }
+
+  .hero-content p {
+    max-width: 100%;
   }
 
   nav ul {
@@ -418,7 +431,6 @@ footer {
     margin-bottom: 10px;
   }
 
-  .hero,
   .subscribe {
     flex-direction: column;
   }
@@ -449,6 +461,14 @@ footer {
 
   .footer-content {
     flex-direction: column;
+  }
+
+  .social-icons {
+    padding: 1rem;
+  }
+
+  .social-icons a {
+    font-size: 2px;
   }
 
   .footer-section {
