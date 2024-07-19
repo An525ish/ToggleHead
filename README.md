@@ -26,7 +26,7 @@ A fast and modern React project built with Vite.
    yarn instal
    ```
 4. Run the Project
-   `sh
+   ```sh
     npm run dev
-    `
+   ```
    Open your web browser and navigate to `http://localhost:5173` to view the application.
