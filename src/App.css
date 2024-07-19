@@ -1,0 +1,471 @@
+/* Header Styles */
+header {
+  background-color: #12406f;
+  color: white;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.last-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.enrolment {
+  background-color: white;
+  color: #12406f;
+  font-weight: 600;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.search {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+/* Hero Styles */
+.hero {
+  background-color: #f3f4f6;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  flex: 1;
+  padding-right: 50px;
+  padding: 80px;
+}
+
+.hero h1 {
+  color: #12406f;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  margin-bottom: 20px;
+  color: #00000099;
+  max-width: 70%;
+}
+
+.know-more {
+  background-color: #12406f;
+  color: white;
+  border: none;
+  padding: 13px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.hero-image {
+  flex: 1;
+  border-radius: 10px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Upcoming Exams Styles */
+.upcoming-exams {
+  background-color: white;
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exam-info {
+  border-right: 2px solid black;
+  padding: 20px;
+}
+
+.exam-info h2 {
+  color: #12406f;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.exam-list {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.exam-item-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.exam-item-container img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.exam-item {
+  flex: 1;
+  border-radius: 10px;
+}
+
+.exam-item:last-child {
+  margin-right: 0;
+}
+
+.exam-date {
+  color: #12406f;
+  font-weight: bold;
+  display: block;
+}
+
+/* Info Cards Styles */
+.info-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 50px;
+  overflow-x: auto;
+}
+
+.card {
+  flex: 1;
+  width: 25rem;
+  background-color: #12406f;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  flex: 0 0 auto;
+}
+
+.card-content {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.card-btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  margin-top: 20px;
+}
+
+.card-btn-tri {
+  border-radius: 100%;
+  margin-left: 10px;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+  background-color: white;
+  color: #12406f;
+  padding-top: 3px;
+}
+
+.info-cards::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.card .know-more {
+  background-color: white;
+  color: #12406f;
+  margin-top: 20px;
+}
+
+/* Statistics Styles */
+.statistics {
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.stat-item {
+  flex: 1;
+  color: #12406f;
+  padding: 0 20px;
+}
+
+.stat-item h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.stat-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* FAQ Styles */
+.faq {
+  padding: 50px 80px;
+}
+
+.faq h2 {
+  color: #12406f;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-bottom: 1px solid black;
+}
+
+.faq-item p {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 15px;
+}
+
+.faq-item p.active {
+  color: #12406f;
+  font-weight: 500;
+}
+
+.toggle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 100%;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-bottom: 2px;
+}
+/* Subscribe Styles */
+.subscribe {
+  display: flex;
+  align-items: center;
+  padding: 50px 80px 0px;
+}
+
+.subscribe-content {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.subscribe h2 {
+  color: #12406f;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.subscribe p {
+  width: 80%;
+}
+
+.subscribe form {
+  display: flex;
+  margin-top: 20px;
+  gap: 1rem;
+}
+
+.subscribe input[type='email'] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: white;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe button {
+  background-color: #12406f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.subscribe-image {
+  flex: 1;
+  border-radius: 10px;
+}
+
+.subscribe-image img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #12406f;
+  color: white;
+  padding: 50px 50px 20px;
+  font-size: small;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-section:nth-child(2) h3 {
+  text-align: center;
+  margin-right: 4rem;
+}
+
+.footer-section:last-child {
+  margin-right: 0;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* header {
+    flex-direction: column;
+    align-items: flex-start;
+  } */
+
+  header,
+  .hero,
+  .upcoming-exams,
+  .statistics,
+  .faq,
+  .subscribe,
+  footer {
+    padding: 20px;
+  }
+
+  nav ul {
+    /* margin-top: 20px;
+    flex-direction: column; */
+    display: none;
+  }
+
+  nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .hero,
+  .subscribe {
+    flex-direction: column;
+  }
+
+  .hero-content,
+  .subscribe-content {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .upcoming-exams,
+  .exam-list,
+  .statistics {
+    flex-direction: column;
+  }
+
+  .exam-info {
+    border-right: 0;
+    border-bottom: 2px solid black;
+  }
+
+  .exam-item,
+  .card,
+  .stat-item {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .subscribe form {
+    flex-direction: column;
+  }
+
+  .subscribe input[type='email'],
+  .subscribe button {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+}
